@@ -219,38 +219,69 @@ nav ul a {
   flex-wrap: wrap;
   width: 100%;
 }
+@media only screen and (max-width: 500px) {
+  .home .space-images {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home .space-images img:not(:first-child) {
+    display: none;
+  }
+}
 .home .space-images img {
   width: 28%;
-  margin: 20px 2.5%;
-  border-radius: 20px;
+  margin: 2rem 2.5%;
+  border-radius: 2rem;
   height: 100%;
 }
+@media only screen and (max-width: 500px) {
+  .home .space-images img {
+    width: 100vw;
+    max-width: 95vw;
+    margin: auto;
+  }
+}
 .home .visit-planets {
-  padding: 15px;
+  padding: 1.5rem;
 }
 .home .visit-planets h3 {
-  margin-top: 11px;
+  margin-top: 1.1rem;
 }
 .home .visit-planets p {
-  margin-top: 13px;
+  margin-top: 1.3rem;
 }
 .home .walk {
-  margin-top: 60px;
+  margin-top: 6rem;
   border-top: 1px solid #dee2e6;
-  padding: 50px 60px;
+  padding: 5rem 6rem;
   display: flex;
   justify-content: center;
 }
-.home .walk .walk-text {
+@media only screen and (max-width: 500px) {
+  .home .walk {
+    padding: 1.5rem 1.5rem;
+    margin-top: 2rem;
+    flex-wrap: wrap-reverse;
+  }
+}
+.home .walk-text {
   width: 50%;
 }
-.home .walk .walk-text h3 {
-  margin-bottom: 10px;
+@media only screen and (max-width: 500px) {
+  .home .walk-text {
+    width: 100%;
+  }
 }
-.home .walk .walk-text p {
-  margin-bottom: 26px;
+.home .walk-text h3 {
+  margin-bottom: 1rem;
 }
-.home .walk .walk-text .btn {
+.home .walk-text p {
+  margin-bottom: 2.6rem;
+}
+.home .walk-text .btn {
   color: white;
   font-size: 1.6rem;
   width: 80%;
@@ -260,12 +291,24 @@ nav ul a {
   text-align: center;
   border-radius: 10px;
 }
-.home .walk .walk-img {
+.home .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.home .walk .walk-img img {
+@media only screen and (max-width: 500px) {
+  .home .walk-img {
+    width: 100vw;
+    max-width: 95vw;
+    margin: auto;
+  }
+}
+.home .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media only screen and (max-width: 500px) {
+  .home .walk-img img {
+    width: 100%;
+  }
 }
