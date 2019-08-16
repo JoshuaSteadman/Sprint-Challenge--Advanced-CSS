@@ -304,6 +304,8 @@ nav ul a {
     text-align: center;
     border-radius: 10px;
     border-radius: 2px;
+    height: 6rem;
+    padding-top: 2rem;
   }
 }
 .home .walk-img {
