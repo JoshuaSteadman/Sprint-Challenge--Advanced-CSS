@@ -293,6 +293,11 @@ nav ul a {
   text-align: center;
   border-radius: 10px;
 }
+.home .walk-text .btn:hover {
+  color: #22283A;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
 @media only screen and (max-width: 500px) {
   .home .walk-text .btn {
     color: white;

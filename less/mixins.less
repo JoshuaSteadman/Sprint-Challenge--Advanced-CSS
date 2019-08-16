@@ -27,3 +27,11 @@
   justify-content: @justify;
   align-items: @align;
 }
+
+.btnColor(@color, @bg) {
+      &:hover{
+         color: @color;
+        background-color: @bg;
+        border: 1px solid @border-real;
+      }
+  }
