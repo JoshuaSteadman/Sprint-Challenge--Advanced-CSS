@@ -35,3 +35,16 @@
         border: 1px solid @border-real;
       }
   }
+
+
+.pulseit(@bg1, @bg2) {
+    animation: pulse 5s infinite;
+    @keyframes pulse {
+        0% {
+          background-color: @bg1;
+        }
+        100% {
+          background-color: @bg2;
+        }
+      }
+    }
