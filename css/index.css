@@ -170,6 +170,30 @@ footer {
   justify-content: center;
   align-items: center;
 }
+nav {
+  height: 11rem;
+  width: 100vw;
+  align-content: center;
+}
+nav .logoContainer {
+  text-align: center;
+}
+nav .logoContainer h1 {
+  width: 100%;
+  font-size: 4rem;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 2rem;
+}
+nav ul a {
+  text-decoration: none;
+  color: #454A59;
+  margin-right: 1.9rem;
+}
 .home .intro h2 {
   padding: 15px;
 }
