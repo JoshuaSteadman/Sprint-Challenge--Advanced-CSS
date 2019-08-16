@@ -1,6 +1,6 @@
 // Mixins Here
 .responsive(@maxWidth; @rules) {
-  @media only screen and (max-width: @maxWidth) {
+  @media only screen and @phone {
     @rules();
   }
 }
@@ -30,7 +30,7 @@
 
 .btnColor(@color, @bg) {
       &:hover{
-         color: @color;
+        color: @color;
         background-color: @bg;
         border: 1px solid @border-real;
       }

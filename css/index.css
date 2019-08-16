@@ -202,7 +202,7 @@ nav ul a {
 .home .intro .header {
   margin-top: 11vh;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and  (max-width: 500px) {
   .home .intro .header {
     width: 100%;
     margin-top: 11rem;
@@ -219,7 +219,7 @@ nav ul a {
   flex-wrap: wrap;
   width: 100%;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and  (max-width: 500px) {
   .home .space-images {
     width: 100%;
     margin: auto;
@@ -237,7 +237,7 @@ nav ul a {
   border-radius: 2rem;
   height: 100%;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and  (max-width: 500px) {
   .home .space-images img {
     width: 100vw;
     max-width: 90vw;
@@ -261,7 +261,7 @@ nav ul a {
   display: flex;
   justify-content: center;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and  (max-width: 500px) {
   .home .walk {
     padding: 1.5rem 1.5rem;
     margin-top: 2rem;
@@ -271,7 +271,7 @@ nav ul a {
 .home .walk-text {
   width: 50%;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and  (max-width: 500px) {
   .home .walk-text {
     margin-top: 2rem;
     width: 100%;
@@ -298,7 +298,7 @@ nav ul a {
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and  (max-width: 500px) {
   .home .walk-text .btn {
     color: white;
     font-size: 1.6rem;
@@ -317,7 +317,7 @@ nav ul a {
   width: 46%;
   margin-left: 4%;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and  (max-width: 500px) {
   .home .walk-img {
     width: 100vw;
     max-width: 95vw;
@@ -329,7 +329,7 @@ nav ul a {
   height: auto;
   border-radius: 10px;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and  (max-width: 500px) {
   .home .walk-img img {
     width: 100%;
   }
