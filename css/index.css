@@ -240,8 +240,9 @@ nav ul a {
 @media only screen and (max-width: 500px) {
   .home .space-images img {
     width: 100vw;
-    max-width: 95vw;
+    max-width: 90vw;
     margin: auto;
+    margin-top: 1.3rem;
   }
 }
 .home .visit-planets {
@@ -272,6 +273,7 @@ nav ul a {
 }
 @media only screen and (max-width: 500px) {
   .home .walk-text {
+    margin-top: 2rem;
     width: 100%;
   }
 }
@@ -284,12 +286,25 @@ nav ul a {
 .home .walk-text .btn {
   color: white;
   font-size: 1.6rem;
-  width: 80%;
+  width: 10rem;
   height: 3.5rem;
   padding: 1rem;
   background-color: #22283A;
   text-align: center;
   border-radius: 10px;
+}
+@media only screen and (max-width: 500px) {
+  .home .walk-text .btn {
+    color: white;
+    font-size: 1.6rem;
+    width: 98%;
+    height: 3.5rem;
+    padding: 1rem;
+    background-color: #22283A;
+    text-align: center;
+    border-radius: 10px;
+    border-radius: 2px;
+  }
 }
 .home .walk-img {
   width: 46%;

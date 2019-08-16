@@ -42,8 +42,9 @@
       height: 100%;
       .responsive(@tablet; { // Set width to 100%
         width: 100vw;
-        max-width: 95vw;
+        max-width: 90vw;
         margin: auto;
+        margin-top: 1.3rem;
       });
     }
   }
@@ -78,6 +79,7 @@
     .walk-text {
       width: 50%;
       .responsive(@tablet; { // Custom Media Query
+        margin-top : 2rem;
         width: 100%;
       });
 
@@ -90,7 +92,12 @@
       }
 
       .btn {
-        .btnStyler(center, 80%);
+        .btnStyler(center, 10rem);
+        .responsive(@tablet; { // Set width to 100%
+          .btnStyler(center, 98%);
+          border-radius: 2px;
+
+        });
       }
     }
 
