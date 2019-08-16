@@ -1,1 +1,28 @@
 // Mixins Here
+.responsive(@maxWidth; @rules) {
+  @media only screen and (max-width: @maxWidth) {
+    @rules();
+  }
+}
+
+.btnStyler(@textAlign, @width) {
+  color: white;
+  font-size: 1.6rem;
+  width: @width;
+  height: 3.5rem;
+  padding: 1rem;
+  background-color: @btn-bg-color;
+  text-align: @textAlign;
+  border-radius: 10px;
+}
+
+.center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexit(@justify, @align) {
+  display: flex;
+  justify-content: @justify;
+  align-items: @align;
+}
