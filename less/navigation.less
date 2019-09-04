@@ -1,1 +1,34 @@
 // Navigation code here
+nav {
+    position: fixed;
+    background-color: @nav-bg;
+    opacity: 0.8;
+    height: 11rem;
+    width: 100vw;
+    align-content: center;
+
+    .logoContainer {
+        text-align:center;
+
+        h1 {
+            width: 100%;
+            padding: 2rem 0;
+            font-size: 4rem;
+        }
+    }
+
+    ul {
+        .flexit(center, center);
+        flex-wrap: wrap;
+
+        width:100%;
+        height: 2rem;
+        a {
+            text-decoration:none;
+            color: @nav-font;
+            font-size: 1.6rem;
+            margin-right: 1.9rem;
+            
+        }
+    }
+}
